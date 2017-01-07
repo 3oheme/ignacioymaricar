@@ -34,6 +34,34 @@ header img {
     text-align: center;
 }
 
+@media (max-width: 600px) {
+    header {
+        background: center center url('../img/header-background-mobile.jpg');
+        background-size: cover;
+        height: 80vh;
+        text-align: center
+    }
+    header img {
+        width: 80%;
+        padding-top: 2em;
+    }
+
+    .intro {
+        padding: 1em;
+        max-width: 30em;
+        margin: 0 auto
+    }
+
+    .feature {
+        clear: both;
+        width: 100%;
+    }
+}
+
+
+
+
+
 .feature svg {
     max-height: 3em;
     text-align: center;
