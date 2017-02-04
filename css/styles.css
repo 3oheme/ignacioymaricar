@@ -25,7 +25,8 @@ header {
 
 header img {
     width: 80%;
-    margin-right: 5%
+    margin-right: 5%;
+    max-width: 50vw
 }
 
 section {
@@ -57,4 +58,17 @@ section {
     float: left;
     width: 64px;
     margin-right: 16px
+}
+
+.what {
+    width: auto !important;
+    float: none !important;
+    margin: 0 !important;
+    vertical-align: middle;
+}
+
+.bnk-details {
+    background: #ECF7FB;
+    border: 1px solid #C0E7F5;
+    padding: 1px 24px;
 }
