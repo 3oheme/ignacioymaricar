@@ -2,7 +2,7 @@ body {
     font-family: 'Alegreya', serif;
     font-size: 18px;
     line-height: 1.6em;
-    max-width: 780px;
+    max-width: 640px;
     margin: 0 auto
 }
 
@@ -28,7 +28,7 @@ header {
 header img {
     width: 80%;
     margin-right: 5%;
-    max-width: 50vw
+    max-width: 320px
 }
 
 section {
